@@ -1,0 +1,13 @@
+<>: distinto (mayor o menor)
+& (y lógico): Este operador lógico devuelve verdadero si ambas condiciones son verdaderas. Si cualquiera de las condiciones es falsa, el resultado es falso
+| (o lógico): Este operador lógico devuelve verdadero si al menos una de las condiciones es verdadera. Solo devuelve falso si ambas condiciones son falsas
+~ (no lógico): Este operador lógico invierte el valor de la condición. Si la condición es verdadera, la hace falsa, y si es falsa, la hace verdadera.
+&& (y lógico cortocircuitado): Al igual que &, este operador lógico realiza una operación "y" lógica, pero es de cortocircuito, lo que significa que no evaluará la segunda condición si la primera es falsa.
+|| (o lógico cortocircuitado): Al igual que |, este operador lógico realiza una operación "o" lógica, pero es de cortocircuito, lo que significa que no evaluará la segunda condición si la primera es verdadera.
+[a1 a2 ... an]' = [a1 a2 ... an] transpuesto (idem para matrices)
+a = [A b] Matriz aumentada (conexion de matrices)
+A(fila_inicio:fila_final , columna_inicio:columna_final): Nos da la submatriz de A que se supone que deberia dar.
+A(fila_i, :): nos da la fila i-esima de A
+A(:, columna_j): nos da la columna j-esima de A
+error("..."): como disp para errores.
+abort: como para terminar el programa sin asignacion de variables de retorno
