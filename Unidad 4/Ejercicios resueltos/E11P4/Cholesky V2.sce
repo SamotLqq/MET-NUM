@@ -1,6 +1,3 @@
-clc
-clear
-
 function [U,ind] = cholesky(A)
 // Factorización de Cholesky.
 // Trabaja únicamente con la parte triangular superior.
@@ -41,7 +38,7 @@ end
 ind = 1
 
 endfunction
-
+/*
 A = [4 1 1; 8 2 2; 1 2 3]
 
 [U,ind] = cholesky(A)
@@ -58,5 +55,4 @@ disp(ind)
 C = [5 2 1 0; 2 -4 2 0; 1 2 2 2; 0 0 2 5]
 disp(C)
 [U,ind] = cholesky(C)
-
-
+*/

@@ -25,9 +25,10 @@ for k = 1:n
 end
 ind = 1
 endfunction
-
+/*
 A = [4 1 1; 1 2 2; 1 2 3]
 
 [U,ind] = Cholesky(A)
 disp(U)
 disp(ind)
+*/
