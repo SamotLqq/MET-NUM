@@ -1,0 +1,1 @@
+podemos concluir que la velocidad de convergencia de gaussSeidel es menor o igual que la de jacobi
