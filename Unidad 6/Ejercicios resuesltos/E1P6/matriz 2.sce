@@ -3,11 +3,9 @@
 -0.1    0 0.1
 -0.1 -0.1   2
 
-r1 = 0
+
 C1 = {z E C: |z-1| <= 0}
-r2 = 2
 C2 = {z E C: |z| <= 0.2}
-r3 = 2
 C3 = {z E C: |z - 2| <= 0.2}
 
 asi, resulta que si z es un autovalor de A entonces:
