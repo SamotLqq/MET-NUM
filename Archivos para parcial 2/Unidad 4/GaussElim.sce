@@ -47,4 +47,40 @@ printf("ge - La cantidad de operaciones en el proceso de eliminacion fue: %d\n",
 printf("ge - La cantidad de operaciones en el proceso de sustitucion fue: %d\n", operacionesSustitucion)
 endfunction
 
+function [A] = generar_A(n)
+    A = zeros(n,n)
+    for i=1:n
+        for j=1:n
+            if (i > j+1) then
+                A(i,j) = 0
+            else
+                A(i,j) = 1/(i+j-1)
+            end
+        end
+    end
+endfunction
+
+function [b] = generar_b(n)
+    b = zeros(1,n)
+    for i=1:n
+        b(i) = i
+    end
+endfunction
+
+A = generar_A(20)
+b = generar_b(20)
+disp("A =")
+disp(A)
+disp("B =")
+disp(b)
+
+[x,a] = gausselim(A,b')
+disp("x =")
+disp(x)
+disp("U =")
+disp(a)
+disp("A*x =")
+disp(A*x) 
+
+
 
