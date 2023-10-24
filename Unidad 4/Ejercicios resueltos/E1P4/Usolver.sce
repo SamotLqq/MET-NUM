@@ -24,7 +24,7 @@ endfunction
 function x = u_solver(U, b)
     [filas, columnas] = size(U)
     [filas_b] = size(b,1)
-    if es_u(U) & columnas == filas_b then
+    if /*es_u(U) &*/ columnas == filas_b then
         for i=filas:-1:1
             x(i) = b(i)
             if i < filas

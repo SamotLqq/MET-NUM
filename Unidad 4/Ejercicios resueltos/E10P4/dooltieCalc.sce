@@ -1,17 +1,17 @@
 funcprot(0)
 
 // obtenemos la factorizacion LU dada por
-// dooltie
+// crout
 
-function [L,U] = dooltie_calc(A)
+function [L,U] = crout_calc(A)
     [nA, mA] = size(A)
     if (nA <> mA) then
         error("dooltie calc - la matriz A debe ser cuadrada")
         abort;
     end
     n = nA // dimension de la matriz
-    L = eye(n, n)
-    U = zeros(n, n)
+    L = zeros(n, n)
+    U = eye(n, n)
     for d=1:n // diagonales
         for j=d:n // derecha diagonal
             sumadj = 0
