@@ -1,0 +1,13 @@
+unidades promovidas: 1,2,5,6,7
+
+dias x unidad:
+	unidad1 - 17,18 ene
+	unidad2 - 19,20 ene
+	unidad3 - 21,22,23 ene
+	unidad4 - 24,25,26 ene
+	unidad5 - 27,28 ene
+	unidad6 - 29,30 ene
+	unidad7 - 31,1 enefeb
+	unidad8 - 2,3,4 feb
+
+quedarian los dias 5,6 para fortalecer temas.
