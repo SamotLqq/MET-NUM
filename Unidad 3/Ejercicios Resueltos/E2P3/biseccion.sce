@@ -1,4 +1,7 @@
 function raiz=metodo_biseccion(f, a, b, tolerancia)
+    if (f(a)*f(b) > 0) then
+        error("Puntos a y b no validos.");
+    end
     i = 0;
     c = (a+b)/2;
     while abs(f(c)) > tolerancia
@@ -10,11 +13,11 @@ function raiz=metodo_biseccion(f, a, b, tolerancia)
         end
         c = (a+b)/2;
     end
-    //printf("f(c): %f, tolerancia: %f\n", f(c), tolerancia)
-    printf("La cantidad de iteraciones con biseccion fue: %d\n",i);
+
+    printf("La cantidad de iteraciones con biseccion fue: %d\n", i);
     raiz = c
 endfunction
 
 // ejemplo de ejecucion met biseccion
 deff("y = f(x)", "y = x^3-1")
-printf("La raíz de la funcion es: %f\n", metodo_biseccion(f, 0, 2, 10^-2))
+printf("La raíz de la funcion es: %f\n", metodo_biseccion(f, -2, 5, 10^-2))

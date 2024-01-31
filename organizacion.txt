@@ -3,10 +3,10 @@ unidades promovidas: 1,2,5,6,7
 dias x unidad:
 	unidad1 - 17,18 ene
 	unidad2 - 22,23 ene
-	unidad3 - 24,25,26 ene
-	unidad4 - 27,28,29 ene
-	unidad5 - 30,31 ene
-	unidad6 - 1,2 ene
-	unidad7 - 3,4 enefeb
-	unidad8 - 5,6,7 feb
+	unidad3 - 24,25,26,27,28 ene
+	unidad4 - 29,30,31 ene
+	unidad5 - 1 ene
+	unidad6 - 2 ene
+	unidad7 - 3 enefeb
+	unidad8 - 4,5,6 feb
 

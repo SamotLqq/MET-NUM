@@ -1,4 +1,7 @@
 function raiz = falsi(f, a, b, tol)
+    if f(a)*f(b) > 0 then
+        error("aproximaciones iniciales a y b no validas.");
+    end
     i = 0;
     c = b - f(b)*((b-a)/(f(b)-f(a)));
     while abs(f(c)) > tol
@@ -8,7 +11,7 @@ function raiz = falsi(f, a, b, tol)
         else
             a = c;
         end
-        c = b - f(b)*((b-a)/(f(b)-f(a)))
+        c =  b - f(b)*((b-a)/(f(b)-f(a)))
     end
     //printf("f(c): %f, tolerancia: %f\n", f(c), tolerancia)
     //printf("La cantidad de iteraciones con met biseccion fue: %d\n", iteraciones);
