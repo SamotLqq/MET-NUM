@@ -1,0 +1,25 @@
+Ej 1.
+
+En caso de realizar operaciones a mano o con calculadora,
+¿Qué medidas tomaría para reducir el error?
+
+Ej 2.
+
+Método de Newton.*
+De el orden de convergencia y demuestrelo.
+¿Qué condiciones suficientes existen para garantizar-
+-la convergencia a la solución y la unicidad de este?
+
+Ej 3.
+
+Método de SOR (Sobre relajación).*
+Explique el método, de la iteración.
+¿Cuál es la matriz de iteración del método?
+
+Ej 4.
+Interpolación de Lagrange.* 
+Enuncie el error de la interpolación polinómica. 
+Acotación del error.* 
+
+
+* Sobre estos temas hay que escribir todo lo que sepan. TODO.
